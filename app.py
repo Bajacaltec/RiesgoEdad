@@ -8,4 +8,4 @@ st.sidebar.subheader("Coloca tu edad en la barra y se desplegarán los riesgos a
 edad=st.slider('Edad',1,100,value=None,step=1)
 if edad==32:
     st.balloons()
-    st.subheader("Felicidades te amo, viejita")
+    st.subheader("!!!!Felicidades te amo, viejita!!!!")
