@@ -12,4 +12,4 @@ with col1:
 with col2:
     edad=st.slider('Edad',1,100,value=None,step=1)
     if edad==32:
-    st.balloons()
+        st.balloons()
