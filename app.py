@@ -9,3 +9,4 @@ edad=st.slider('Edad',1,100,value=None,step=1)
 if edad==32:
     st.balloons()
     st.subheader("!!!!Felicidades te amo, viejita!!!!")
+    st.image("feo.jpeg")
