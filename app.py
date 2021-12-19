@@ -8,7 +8,7 @@ st.sidebar.subheader("Coloca tu edad en la barra y se desplegarán los riesgos a
 
 col1,col2 =st.columns(2)
 with col1: 
-    st.image("Edad")
+    st.title("Edad")
 with col2:
     edad=st.slider('Edad',1,100,value=None,step=1)
     if edad==32:
